@@ -447,8 +447,7 @@ public class XFormParser {
 
     public FormDef parse() throws IOException {
         if (_f == null) {
-            System.out.println("Parsing form...");
-
+            
             if (_xmldoc == null) {
                 _xmldoc = getXMLDocument(_reader, stringCache);
             }
